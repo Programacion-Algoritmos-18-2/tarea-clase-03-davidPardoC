@@ -38,7 +38,7 @@ public class Principal {
         System.out.println("Ingrese el apellido del trabajador");
         String apellidos = scanner.nextLine();
         t.agregar_apellidos(apellidos);
-        System.out.println("(1) Ingresar datos semanalmente /n (2) Ingresar Valor mensual: ");
+        System.out.println("(1) Ingresar datos semanalmente \n (2) Ingresar Valor mensual: ");
         int opcion = scanner.nextInt();
         switch(opcion) {
         case(1):
